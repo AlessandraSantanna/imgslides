@@ -26,7 +26,7 @@
     }
 
     header a {
-        color:#eeee;
+        color:#000;
         margin-right: 40px;
         font-weight: 300;
     }
@@ -48,7 +48,7 @@
         object-fit: cover;
         width: 100%;
         height: 100%;
-        filter:brightness(50%);
+       /* filter:brightness(50%);*/
 
     }
 
@@ -58,7 +58,7 @@
         right:10%;
         padding-right: 30%;
         width: 80%;
-        color:#eeee;
+        color:#000;
         text-shadow:0 5px 10px #0004;
     }
 
@@ -108,8 +108,8 @@
 
     }
     .container .list .list-item .buttons button:nth-child(2):hover{
-        background-color:#eee;
-        color:#000;
+        background-color:#000;
+        /*color:#000;*/
             
     }
     .container .thumb{
@@ -118,6 +118,7 @@
         left:50%;
         display: flex;
         gap:20px;
+        color:black;
 
     }
 
@@ -161,14 +162,14 @@
         border:none;
         padding:12px 17px;
         background-color: #eee4;
-        color:#eeee;
+        color:#000;;
         cursor:pointer;
         font-weight: 700;
         font-size:1.3em;
     }
     .container .arrows button:hover{
-        background-color: #eee;
-        color:#000;
+        background-color: #fff;
+          /*color:#000;*/
         transition: 0.7s;
     }
 
@@ -277,3 +278,12 @@
       bottom: 50px;
     }
   }
+
+  
+@media screen and (max-width:1000px){
+
+    /*cabeçalho*/
+    .container .thumb{
+        display:none;
+    }
+}

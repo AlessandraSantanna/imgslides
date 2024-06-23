@@ -136,7 +136,7 @@
         height: 100%;
         object-fit:cover;
         border-radius:10px;
-        filter:brightness(80%);
+        filter:brightness(100%);
     }
     .container .thumb .content{
         position:absolute;
@@ -161,7 +161,7 @@
         border-radius:10px;
         border:none;
         padding:12px 17px;
-        background-color: #eee4;
+        background-color: rgba(238, 238, 238, 0.719);
         color:#000;;
         cursor:pointer;
         font-weight: 700;
